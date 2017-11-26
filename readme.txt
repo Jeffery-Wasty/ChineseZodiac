@@ -1,9 +1,4 @@
-Student 1:	
-	Gursharn Heer
-	A00999569
-	Set 1D
-	gursharn_heer5987@hotmail.com
-	
+
 Student 2:
 	Jeffery Wasty
 	A01027014

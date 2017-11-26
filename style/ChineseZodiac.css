@@ -1,0 +1,273 @@
+html {
+	position: relative;
+	min-height: 100%;
+	font-family: "Arial", "Sans serif";
+}
+body {
+	margin: 0 0 200px;
+	width: 100%;
+	height: 100%;
+	background: url(../Images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+#banner_space {
+	height: 200px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Chinese_Zodiac_Banner {
+	height: 250px;
+	width: 1200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left:0;
+	right:0;
+}
+#navigation_bar {
+	height: 50px;
+	padding: 0px;
+	border: solid #000;
+	background-color: #fbd500;
+	position: relative;
+
+}
+#button_holder {
+	margin: 0;
+	width: 550px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+.button {
+	height: 30px;
+	width: 150px;
+	padding-left: 14px;
+	padding-right: 14px;
+	transition: all .1s ease-in-out;
+	border: 1px solid transparent;
+}
+.button:hover {
+	transform: translate(0%, -10%);
+}	
+.hidden_text {
+	visibility: hidden;
+}
+#content_box {
+	background-color: #de3939;
+	height: auto;
+	width: 60%;
+	border: 40px solid transparent;
+    border-image: url(../Images/Border.png) 20 round;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 510px;
+}
+#contact_us_box {
+	background-color: #de3939;
+	height: 400px;
+	width: 60%;
+	border: 40px solid transparent;
+    border-image: url(../Images/Border.png) 20 round;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 610px;
+}
+#page_title {
+	font-size: 39px;
+	color: #fbd500;
+	text-align: center;
+	padding: 0px;
+	border-bottom: 3px solid transparent;
+}
+#main_information {
+	background-color: #de3939;
+	margin-left: auto;
+    margin-right: auto;
+	width: 510px;
+	color: #fbd500;
+}
+#wheel {
+    width: 70%;
+    height: auto;
+    animation:spin 20s linear infinite;
+	display: block;
+    margin: auto;
+	padding: 5px;
+}
+@keyframes spin { 
+	100% {transform:rotate(360deg); }
+}
+#wheel:hover {
+    animation-play-state: paused;
+}
+.row {
+	width: 100%;
+	height: 100%;
+}
+.twelve_signs_page_zodiac_animal {
+	margin: 15px;
+	transition: all .3s ease-in-out;
+}
+#image_container {
+	width: 300px;
+	height: 200px;
+	position: relative;
+	display: inline-block;
+	float: right;
+	transform: translate(25px,20px);
+}
+.zodiac_page_animal {
+	margin: 0;
+	width: 250px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#rat {
+	transform: translate(-5%,10%);
+}
+#rat:hover {
+	transform: translate(-5%,10%) scale(1.5);
+}
+#ox {
+	transform: translate(5%, 5%);
+}
+#ox:hover {
+	transform: translate(5%, 5%) scale(1.5);
+}
+#tiger:hover {
+	transform: scale(1.5);
+}
+#rabbit {
+	transform: translate(-10%,0%);
+}
+#rabbit:hover {
+	transform: translate(-10%,0%) scale(1.5);
+}
+#dragon {
+	transform: translate(-12%,0%);
+}
+#dragon:hover {
+	transform: translate(-12%,0%) scale(1.5);
+}
+#snake:hover {
+	transform: scale(1.5);
+}
+#horse:hover {
+	transform: scale(1.5);
+}
+#goat {
+	transform: translate(20%,0%);
+}
+#goat:hover {
+	transform: translate(20%,0%) scale(1.5);
+}
+#monkey {
+	transform: translate(60%,0%);
+}
+#monkey:hover {
+	transform: translate(60%,0%) scale(1.5);
+}
+#rooster:hover {
+	transform: scale(1.5);
+}
+#dog {
+	transform: translate(15%,0%);
+}
+#dog:hover {
+	transform: translate(15%,0%) scale(1.5);
+}
+#pig {
+	transform: translate(16%,0%);
+}
+#pig:hover {
+	transform: translate(16%,0%) scale(1.5);
+}
+.form_horizontal {
+	width: 610px;
+	transform: translate(0%, 10%);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+}
+.information {
+	display: inline-block;
+	width: 108px;
+	text-align: right;
+}
+input {
+	display: inline;
+	width: 500px;
+	text-align: left;
+}
+#comment {
+	line-height: 1em;
+	padding: 0 0 100px 0;
+	text-align: justify;
+	resize: none;
+}
+#submit {
+	width: 80px;
+	height: 30px;
+	display: block;
+	background-color: DarkGrey;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+	transform: translate(0%, 20%);
+}
+#contents {
+    background: #de3939;
+    border: 1px solid #fbd500;
+    display: table;
+    padding: 20px;
+    width: auto;
+	color: #fbd500;
+	text-align: left;
+}
+.hr {
+	border-color: #fbd500;
+}
+.contents_title {
+    font-size: 25px;
+}
+.list_links:link {
+	color: #fbd500;
+}
+.list_links:visited {
+	color: #fbd500;
+}
+.footer_link {
+	color: #000;
+}
+.non_underlined_links {
+	text-decoration: none;
+	color: #fbd500;
+}
+
+#contents li, #contents ul, #contents ul li{
+    list-style: outside none none;
+}
+footer {
+	background-color: #fbd500;
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+    bottom: 0;
+    height: 200px;
+    overflow: hidden;
+	padding: 0px;
+	border: solid #000;
+	text-align: center;
+}	

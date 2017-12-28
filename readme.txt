@@ -1,30 +1,9 @@
+Jeffery Wasty
+A01027014
+Set 1D
+jeff.wasty@gmail.com
 
-Student 2:
-	Jeffery Wasty
-	A01027014
-	Set 1D
-	jeff.wasty@gmail.com
+This project required students to make a simple website that provided users with information on the Chinese Zodiac, including information on the origins of the zodiac and information on each animal, and associated traits, lucky things, good careers, etc. The website also included a contact page that posted to given information to a PHP page to demonstrate that the student had completed the contact page successfully. The student was expected to complete the page with raw HTML and CSS, i.e without the use of libraries such as Bootstrap.
 	
-Completed:
-	index.html
-	12signs.html
-	contactus.html
-	All animal pages (12)
-	All images and styling
-	readme.txt
-	
-Not completed:
-
-Major Challenges:
-	The form on the contact page gave us some trouble. It wasn't until
-	the class we had on HTML forms, that we were able to figure out how
-	to get it working.
-	
-	Striking the right balance between elaborate design and feasibility
-	was a challenge. We had many ideas of how we wanted the web page to
-	look, but with only so much time, we had to cut the ideas down to
-	only what we thought we could finish in that time frame. Overall,
-	we are happy with how the web page looks, but can also see areas
-	in which it can be improved.
-
+Demo available at:
 http://wasty-jeffery-chinese-zodiac.azurewebsites.net
